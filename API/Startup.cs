@@ -60,7 +60,7 @@ namespace API
 
             app.UseRouting();
 
-            app.UseCors();
+            app.UseCors("CorsPolicy");
             
             app.UseAuthorization();
 
